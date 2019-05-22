@@ -1,0 +1,36 @@
+{
+  "name": "savemetenminutes/frameless",
+  "description": "SaveMeTenMinutes - The Frameless PHP Framework",
+  "type": "library",
+  "keywords": [
+    "savemetenminutes",
+    "framework",
+    "frameless"
+  ],
+  "homepage": "",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Milen Kirilov",
+      "email": "savemetenminutes@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7",
+  },
+  "autoload": {
+    "psr-4": {
+      "Smtm\\Frameless\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "vendor-dir": "../../"
+  },
+  "extra": {
+  }
+}
